@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main() {
+int choice;
+printf (".. Data structure classifier---\n");
+printf ("1. array \n");
+printf ("2. Linked List \n");
+printf ("3. Tree \n");
+printf ("4. Graph \n");
+printf ("Select a data structure (1-4):");
+scanf ("%d", & choice);
+printf ("\n Classification : \n");
+switch (choice) {
+case 1:
+printf ("- Primitive/non Primitive : Non Primitive \n");
+printf ("- Linear/non Linear : Linear \n");
+printf ("- Static / Dynamic : Static (usually fixed size) \n");
+break;
+case 2:
+printf ("- Primitive/non-Primitive : non-Primitive \n");
+printf ("- Linear/non-Linear : Linear \n");
+printf ("- Static/Dynamic : Dynamic \n");
+break;
+case 3:
+printf ("- Primitive/non primitive : non-Primitive \n");
+printf ("- Linear/non-Linear : non-Linear \n");
+printf ("- Static/Dynamic : Dynamic \n");
+break;
+case 4:
+printf ("- Primitive/non-primitive : Non-Primitive \n");
+printf ("- Linear/non-Linear : non-Linear \n");
+printf ("- Static/Dynamic : Dynamic \n");
+break;
+default :
+printf (" Invalid selection ! Please enter 1,2,3,4, \n");
+}
+return 0;
+}
